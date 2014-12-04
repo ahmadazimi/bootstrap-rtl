@@ -2,6 +2,8 @@
 
 ---
 
+***Note: Hopefully, they will add rtl support to the next major release of bootstrap, so this project will be absolete. However, it's going to be updated for the next 3.x releases.***
+
 > Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
 
@@ -15,7 +17,7 @@ Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 
 <link rel="stylesheet" href="bootstrap-rtl.css">
 ```
 
-Or load it from CDN:
+Or load it from CDN (3.2.0-rc2):
 
 ```html
 <!-- Load Bootstrap RTL theme from CDNJS -->
@@ -31,7 +33,7 @@ To get started, **[download latest release](https://github.com/morteza/bootstrap
 In addition to bootstrap distribution, LESS codes for RTL theme and compiled CSS (`bootstrap-rtl.css`) are provided, as well as minified CSS (`bootstrap-rtl.min.css`). Check `dist/` directory for all the codes you need.
 
 #### Auto Flip (`.flip`)
-To automatically flip placements from right to left and vice versa (in bilingual pages), use `.flip` alongside `.pull-right` and `.pull-left`. This is a custom class which is not available in the original Bootstrap 3.
+To automatically flip placements from right to left and vice versa (in bilingual pages), use `.flip` alongside `.pull-right` and `.pull-left`. This is a custom class and is not available in the original Bootstrap 3.
 
 ## Building CSS and JavaScript
 
@@ -66,14 +68,11 @@ If you want a feature or a bug fixed, [report it via project's issues tracker](h
 + [http://github.com/morteza](http://github.com/morteza)
 
 
-## Copyright and license
+## License
+
+I have no idea what licenses are for exactly. So there is no license control over this bootstrap-rtl project. However bootstrap itself is licensed by Twitter, Inc. under [the MIT License (MIT)](LICENSE.bootstrap).
+
+If it really matters to you to have a license to avoid litigations, this is an unlicensed public domain software. Read [UNLICENSE file](UNLICENSE) for more.
 
 
-#### Bootstrap RTL
-This work is licensed under the Creative Commons **Attribution-NonCommercial-ShareAlike 4.0** International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-See the file [LICENSE.md](LICENSE.md) for the full license governing this project.
-
-#### Bootstrap
-&copy; 2011-2014 Twitter, Inc. Licensed under [the MIT License (MIT)](LICENSE.bootstrap).
 
